@@ -1,0 +1,57 @@
+.atoz-filter {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 8px;
+}
+
+.filter-letter {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 1px solid #fdfdfd;
+    border-radius: 4px;
+    background-color: #d7e7f4;
+    color: #0b83c0;
+}
+
+.filter-letter:hover {
+  background-color: #e9e9e9;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+h4.success.upload-message {
+    color: #18be18;
+    padding-top: 12px;
+    text-align: center;
+}
+
+h4.danger.upload-message {
+    color: #e61010;
+    padding-top: 12px;
+    text-align: center;
+}
+
+.custom-file-upload {
+    @apply cursor-pointer inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out;
+}
+
+.cinzel-font {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+span.filter-letter.active {
+    color: #fff;
+    background-color: #e61010;
+}
+
+.loader-icon {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
