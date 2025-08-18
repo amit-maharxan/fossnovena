@@ -34,10 +34,6 @@ h4.danger.upload-message {
     text-align: center;
 }
 
-.custom-file-upload {
-    @apply cursor-pointer inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-200 ease-in-out;
-}
-
 .cinzel-font {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
@@ -54,4 +50,16 @@ span.filter-letter.active {
     width: 100px;
     margin-left: auto;
     margin-right: auto;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    @apply bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg cursor-pointer transition-all duration-200 ease-in-out;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
 }
