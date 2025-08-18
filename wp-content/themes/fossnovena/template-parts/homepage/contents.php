@@ -5,7 +5,7 @@
             <img src="https://fossnovena.org/wp-content/uploads/2020/08/perpetual_register.jpg" alt="Perpetual Register" class="w-full h-auto" />
         </div>
 
-        <div class="grid grid-cols-[30%_70%] gap-4 mx-12 my-12">
+        <div class="grid grid-cols-1 md:grid-cols-[30%_70%] gap-6 mx-4 md:mx-12 my-8 md:my-12">
             <div class="p-4">
                 <div>
                     <h3 class="text-xl font-semibold uppercase cinzel-font text-[#0b83c0]">Perpetual</h3>
